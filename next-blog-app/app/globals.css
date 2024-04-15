@@ -1,0 +1,49 @@
+:root {
+  --color-bg: grey;
+  --color-active: ##1c5bff;
+}
+
+.container {
+  max-width: 900px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin: 0 auto;
+}
+
+header {
+  background-color: var(--color-bg);
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+header a {
+  text-decoration: none;
+  color: white;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+a {
+  text-decoration: none;
+  color: brown;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+main {
+  min-height: calc(100vh - 85px - 22px);
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.active {
+  color: var(--color-active);
+}
